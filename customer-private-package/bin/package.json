@@ -1,0 +1,13 @@
+{
+    "name": "customer-private-package",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "3.129.0"
+    },
+    "scripts": {
+        "build": "rm -rf bin && tsc && cp package.json bin/"
+    }
+}
